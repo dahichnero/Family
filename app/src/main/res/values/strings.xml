@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Семейный Бюджет</string>
+    <string name="welcome">Добро пожаловать</string>
+    <string name="signIn">Вход</string>
+    <string name="login">Логин</string>
+    <string name="password">Пароль</string>
+    <string name="signUp">Регистрация</string>
+    <string name="ToLogin">Обратно в логин</string>
+    <string name="email">Почта</string>
+    <string name="repeat">Повторите пароль</string>
+    <string name="title_activity_third_screen">ThirdScreen</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_info_relatives">InfoRelativesActivity</string>
+</resources>

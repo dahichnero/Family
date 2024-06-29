@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InfoWishActivity"
+    android:background="@drawable/gradient">
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/appCompatButton30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttons_chat_two"
+        android:fontFamily="@font/hachi_maru_pop"
+        android:text="Назад"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appCompatButtonDialogue2"
+        app:layout_constraintVertical_bias="0.428" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/appCompatButtonInfoTargetName"
+        android:layout_width="245dp"
+        android:layout_height="48dp"
+        android:background="@drawable/buttons"
+        android:fontFamily="@font/hachi_maru_pop"
+        android:text="Название цели: ..."
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/appCompatButtonDialogue2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appCompatButtonInfoAlreadyEarned"
+        app:layout_constraintVertical_bias="0.065" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/appCompatButtonDialogue1"
+        android:layout_width="126dp"
+        android:layout_height="96dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/buttons_chat"
+        android:fontFamily="@font/hachi_maru_pop"
+        android:text="Как ты заработал на квартиру?"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="12.9sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appCompatButtonInfoTargetName" />
+
+    <ImageView
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_marginTop="84dp"
+        android:src="@drawable/img"
+        app:layout_constraintBottom_toTopOf="@+id/appCompatButton30"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appCompatButtonInfoTargetName"
+        app:layout_constraintVertical_bias="0.068" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/appCompatButtonDialogue2"
+        android:layout_width="127dp"
+        android:layout_height="179dp"
+        android:layout_marginBottom="108dp"
+        android:background="@drawable/buttons_chat_four"
+        android:fontFamily="@font/hachi_maru_pop"
+        android:text="Я заполнил данные о заработке однажды, а потом откладывал, когда время приходило!"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="12.9sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_marginBottom="128dp"
+        android:src="@drawable/img"
+        app:layout_constraintBottom_toTopOf="@+id/appCompatButton30"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.991"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/appCompatButtonInfoAlreadyEarned"
+        android:layout_width="245dp"
+        android:layout_height="48dp"
+        android:background="@drawable/buttons"
+        android:fontFamily="@font/hachi_maru_pop"
+        android:text="Заработано: ..."
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/appCompatButtonDialogue2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewInfoWish"
+        app:layout_constraintVertical_bias="0.059" />
+
+    <TextView
+        android:id="@+id/textViewInfoWish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/hachi_maru_pop"
+        android:gravity="center"
+        android:text="Информация о цели"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.517"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

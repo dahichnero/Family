@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EighthScreen"
+    android:background="@drawable/gradient">
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/appCompatButtonEditInfoAboutYourself"
+        android:layout_width="298dp"
+        android:layout_height="54dp"
+        android:background="@drawable/buttons"
+        android:fontFamily="@font/hachi_maru_pop"
+        android:text="Изменить информацию о себе"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.592" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/appCompatButtonInfoAboutRelatives"
+        android:layout_width="298dp"
+        android:layout_height="54dp"
+        android:background="@drawable/buttons"
+        android:fontFamily="@font/hachi_maru_pop"
+        android:text="Увидеть информацию о родственниках"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/appCompatButtonInfoAboutWish"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView13"
+        app:layout_constraintVertical_bias="0.678" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/appCompatButtonInfoAboutWish"
+        android:layout_width="298dp"
+        android:layout_height="54dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/buttons"
+        android:fontFamily="@font/hachi_maru_pop"
+        android:text="Увидеть информацию о цели"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/appCompatButtonInfoAboutYourself"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/appCompatButtonInfoAboutYourself"
+        android:layout_width="298dp"
+        android:layout_height="54dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/buttons"
+        android:fontFamily="@font/hachi_maru_pop"
+        android:text="Увидеть информацию о себе"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/appCompatButtonEditInfoAboutForced"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/appCompatButtonEditInfoAboutForced"
+        android:layout_width="298dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="244dp"
+        android:background="@drawable/buttons"
+        android:fontFamily="@font/hachi_maru_pop"
+        android:text="Изменить информацию о вынужденных расходах"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/appCompatButtonEditInfoAboutYourself"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/appCompatButtonEditInfoAboutWish"
+        android:layout_width="298dp"
+        android:layout_height="54dp"
+        android:layout_marginBottom="88dp"
+        android:background="@drawable/buttons"
+        android:fontFamily="@font/hachi_maru_pop"
+        android:text="Изменить информацию о цели"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appCompatButtonEditInfoAboutRelatives"
+        app:layout_constraintVertical_bias="0.7" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/appCompatButtonEditInfoAboutRelatives"
+        android:layout_width="298dp"
+        android:layout_height="54dp"
+        android:background="@drawable/buttons"
+        android:fontFamily="@font/hachi_maru_pop"
+        android:text="Изменить информацию о родственниках"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.71" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/hachi_maru_pop"
+        android:text="Что вы желаете сделать?"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.029" />
+
+    <ImageButton
+        android:id="@+id/imageButtonBack"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:background="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.039"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.968"
+        app:srcCompat="@drawable/img_9"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

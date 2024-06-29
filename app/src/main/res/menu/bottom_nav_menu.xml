@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_support"
+        android:icon="@drawable/img_1"
+        android:title="Support" />
+
+    <item
+        android:id="@+id/navigation_add"
+        android:icon="@drawable/img_2"
+        android:title="Add" />
+
+    <item
+        android:id="@+id/navigation_main"
+        android:icon="@drawable/img_3"
+        android:title="Main" />
+
+    <item
+        android:id="@+id/navigation_notes"
+        android:icon="@drawable/img_4"
+        android:title="Notes"/>
+
+    <item
+        android:id="@+id/navigation_menu"
+        android:icon="@drawable/img_5"
+        android:title="Menu"/>
+
+</menu>
